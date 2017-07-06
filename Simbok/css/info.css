@@ -1,0 +1,412 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height: 700px;
+    background: #4e4d4d;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+
+/*header*/
+.headerWrapper {
+    box-shadow: 1px -3px 28.3px -4px black;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    background: #4e4d4d;
+}
+
+.header a {
+    font-weight: 100;
+}
+
+.header a.icon:hover {
+    color: #ffa000;
+}
+
+/*main*/
+
+/*sidebar*/
+.main .sidebar {
+    position: fixed;
+    float: left;
+    width: 310px;
+    text-align: right;
+    line-height: 50px;
+    min-height: 150px;
+    background: url('../images/muen.png') no-repeat right 30px;
+    padding-top: 30px;
+}
+
+.main .sidebar div {
+    padding: 0 50px 0 100px;
+}
+
+.main .sidebar span {
+    color: white;
+    font-size: 22px;
+}
+
+.main .sidebar li {
+    width: 162px;
+}
+
+.main .sidebar li a {
+    color: #b0b0b0;
+    font-size: 18px;
+}
+
+.main .sidebar li a:hover, .main .sidebar li .cur {
+    color: #ffa000;
+}
+
+/*aboutUs*/
+.main.us {
+    top: 50px;
+    display: block;
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.main.us .sidebar.aboutUs {
+    margin: 200px -170px;
+}
+
+.main.us .infoUs {
+    width: 900px;
+    margin-left: 220px;
+    color: #dbdbdb;
+}
+
+/*one*/
+.main.us .infoUs .one {
+    padding-top: 100px;
+    font-size: 18px;
+    margin: 51px 0 0;
+}
+
+.main.us .one h1 {
+    line-height: 90px;
+    text-align: center;
+    font-size: 39px;
+    color: #fff;
+    font-family: initial;
+    font-weight: 500;
+}
+
+.main.us .one:last-child h1 {
+    text-align: left;
+}
+
+.main.us .one h2 {
+    font-size: 25px;
+    font-family: initial;
+    font-weight: 200;
+    text-align: center;
+}
+
+.main.us .one .box {
+    margin-top: 50px;
+    width: 900px;
+}
+
+.main.us .one .box img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.main.us .one .box:last-child {
+    border-bottom: 1px solid darkgray;
+}
+
+.main.us .one .box:last-child img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.main.us .infoUs .one p {
+    margin: auto;
+    padding: 30px 20px;
+    font-size: 18px;
+    width: 340px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+}
+
+.main.us .infoUs .one .des {
+    width: 636px;
+    margin: auto;
+    padding: 36px 0;
+    border-bottom: 1px solid darkgray;
+}
+
+.float_right {
+    float: right;
+}
+
+.main.us .infoUs .one ul {
+    display: inline-block;
+    width: 200px;
+    line-height: 43px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.main.us .infoUs .one ul:last-child {
+    width: 419px;
+    font-size: 18px;
+    line-height: 43px;
+    color: #dbdbdb;
+    font-weight: 200;
+}
+
+.main.us .infoUs #first ul:first-child li, .main.us .infoUs .one .des span {
+    color: #49a4ed;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/*two*/
+.main.us .infoUs #two .tw {
+    width: 600px;
+    margin: 100px 0;
+}
+
+.main.us .infoUs #two .des.tw {
+    width: 282px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.main.us .infoUs #two .des.tw ul.tw1 li {
+    list-style: none;
+}
+
+.main.us .infoUs #two .des.tw li em {
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #49a4ed;
+}
+
+.main.us .infoUs #two .tw li {
+    text-align: left;
+    list-style: circle;
+}
+
+.main.us .infoUs #two .tw p:first-of-type {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 1px solid darkgray;
+}
+
+.main.us .infoUs #two .tw p b {
+    color: white;
+}
+
+.main.us .infoUs #two .tw p {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 80px;
+    border: none;
+}
+
+.main.us .infoUs #two .tw span {
+    margin-right: 20px;
+    padding: 0;
+    width: 200px;
+    text-align: left;
+    line-height: 80px;
+    border: none;
+}
+
+.main.us .infoUs #three .box2 {
+    margin: 0 539px 50px 0;
+}
+
+.main.us .infoUs #three .box2 h1 {
+    width: 700px;
+    font-size: 25px;
+    border-bottom: none;
+    text-align: left;
+    line-height: 30px;
+    margin: 25px 0;
+}
+
+.main.us .infoUs #three .box2 p {
+    padding: 30px 0;
+    width: 695px;
+    font-size: 20px;
+    font-weight: 100;
+    border-bottom: 1px solid darkgray;
+    text-align: left;
+}
+
+.main.us .infoUs #three .box2 .ic {
+    width: 900px;
+}
+
+.main.us .infoUs #three .box2 .ic li {
+    float: left;
+    margin: 50px 37px;
+    width: 100px;
+    height: 100px;
+    background: url(../images/aboutus/04.png) no-repeat;
+    background-size: cover;
+}
+
+.main.us .infoUs #three .box2 .ic li:nth-child(1) {
+    background-position: 0 0;
+}
+
+.main.us .infoUs #three .box2 .ic li:nth-child(2) {
+    background-position: -95px 0;
+}
+
+.main.us .infoUs #three .box2 .ic li:nth-child(3) {
+    background-position: -180px 0;
+}
+
+.main.us .infoUs #three .box2 .ic li:nth-child(4) {
+    background-position: -270px 0;
+}
+
+.main.us .infoUs #three .box2 .ic li:nth-child(5) {
+    background-position: -367px 0;
+}
+
+.main.us .infoUs #three .box2 .ic1 li {
+    padding: 20px 0;
+    min-width: 800px;
+    /*border-bottom: 1px solid darkgray;*/
+}
+
+.main.us .infoUs #three .box2 .ic1 li:last-child {
+    border-bottom: 1px solid darkgray;
+}
+
+.main.us .infoUs #three .box2 .ic1 li p {
+    position: absolute;
+    margin-left: 20px;
+    padding: 47px 0;
+    display: inline-block;
+    border-bottom: none;
+
+}
+
+.main.us .infoUs #three .box2 .ic1 li span {
+    display: inline-block;
+    margin: 15px 0 0;
+    width: 100px;
+    height: 100px;
+    background: url("../images/aboutus/05.png") no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.main.us .infoUs #three .box2 .ic1 li:nth-child(1) span {
+    background-position: 0 0;
+}
+
+.main.us .infoUs #three .box2 .ic1 li:nth-child(2) span {
+    background-position: -101px 0;
+}
+
+.main.us .infoUs #three .box2 .ic1 li:nth-child(3) span {
+    background-position: -201px 0;
+}
+
+.main.us .infoUs #three .box2 .ic1 li:nth-child(4) span {
+    background-position: -301px 0;
+}
+
+.main.us .infoUs #three .box2 .ic1 li:nth-child(5) span {
+    background-position: -400px 0;
+}
+
+.circle {
+    text-align: left;
+    list-style: circle;
+}
+
+.main.us .infoUs #four p:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.main.us .infoUs #four .box1 {
+    margin-right: 539px;
+    text-align: left;
+}
+
+.main.us .infoUs #four .box1 h1 {
+    font-size: 25px;
+    border-bottom: none;
+}
+
+.main.us .infoUs #four .box1 p {
+    font-size: 19px;
+    font-weight: 100;
+    border-bottom: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.main.us .infoUs #four .wechat {
+    margin: 50px auto;
+    height: 300px;
+
+}
+.main.us .infoUs #four .wechat  div h2{
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+.main.us .infoUs #four .wechat img{
+    display: inline-block;
+    height: 100%;
+}
+.main.us .infoUs #four .wechat div {
+    width: 300px;
+    margin: auto;
+    display: inline-block;
+    height: inherit;
+}
+.main.us .infoUs #four .wechat div.float_right  img {
+    padding: 0 20px;
+}
+.main.us .infoUs #four .wechat div.float_right {
+
+    width: 346px;
+    display: inline-block;
+    height: inherit;
+}
+.footertext {
+    width: 1024px;
+    height: 77px;
+    margin: 150px auto 0;
+}
+
+.footertext p {
+    width: 100%;
+    font-size: 14px;
+    color: #a3a3a3;
+    line-height: 30px;
+    text-align: center;
+}

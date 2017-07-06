@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simbok-人工智能 新安全</title>
+    <meta name="description" content="Simbok拥有自主研发、自主知识产权的虹膜识别、多生物特征识别、智能感知识别核心技术、核心产品及解决方案，可广泛应用于互联网、商业、政府、军队、保密、公安、安防、金融、航空、铁路、社保、海关等各个行业，实现高安全性、快速智能身份识别。">
+    <meta name="keywords" content="Simbok,Simbok森博克，simbok,虹膜识别,智能身份识别,智能家居">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="headerWrapper">
+    <div class="header">
+        <div><a href="index.html" class="icon_logo"></a></div>
+        <div class="nav">
+            <a class="icon" href="sort.html"><span class="icon_center"></span>产品中心</a>
+        </div>
+        <div class="nav_right">
+            <a class="icon" href="info.html"><span class="icon_more"></span>更多</a>
+            <ul class="subnav">
+                <li><a href="info.html#first"><em></em>关于虹膜</a></li>
+                <li><a href="info.html#two"><em></em>人力资源</a></li>
+                <li><a href="info.html#three"><em></em>关于simbok</a></li>
+                <li><a href="info.html#four"><em></em>联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="wrapper" id="wrapper">
+    <div class="slider curImg">
+        <img src="images/01.png" alt=""/>
+        <p><span>人工智能</span> <span>新安全</span></p>
+        <p>智能感知识别重新定义安全</p>
+    </div>
+    <div class="slider">
+        <img src="images/03.png" alt=""/>
+        <p>双眼·极速识别</p>
+        <a href="sort.html#item3">min虹膜U6</a>
+    </div>
+    <div class="slider">
+        <img src="images/02.png" alt=""/>
+        <p>双眼·极速识别</p>
+        <a href="sort.html#item3">nano虹膜1</a>
+    </div>
+    <div class="slider">
+        <img src="images/05_.png" alt=""/>
+        <p>智能安防产品</p>
+        <a href="sort.html#item1">虹膜门禁V8</a>
+    </div>
+    <div class="arrow">
+        <ul class="tip1">
+            <li class="cur"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="tip2">
+            <li class="cur"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<script>
+    $(function () {
+        var $wrapper = $('#wrapper'),
+            $slider = $wrapper.find('.slider'),
+            $arrow = $('.arrow'),
+            $tip1 = $arrow.find(".tip1"),
+            $tip2 = $arrow.find(".tip2"),
+            $tipList1 = $tip1.find('li'),
+            $tipList2 = $tip2.find('li');
+
+        $tipList1.on('mouseover', function () {
+            step = $(this).index();
+            $(this).addClass('cur').siblings().removeClass('cur');
+            $tipList2.eq(step).addClass('cur').siblings('li').removeClass('cur');
+            $slider.eq(step).addClass('curImg').siblings('div').removeClass('curImg');
+        });
+    });
+</script>
+</body>
+</html>

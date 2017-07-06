@@ -1,0 +1,158 @@
+/*wrapper*/
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-width: 1300px;
+    min-height: 700px;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.wrapper .slider {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .slider {
+    display: none;
+}
+
+.wrapper .slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .curImg {
+    display: block;
+}
+
+.wrapper .slider:nth-child(1) p {
+    top: 68%;
+    left: 0;
+    right: 0;
+    margin-left: -110px;
+}
+
+.wrapper .slider:nth-child(1) p:last-child {
+    top: 75%;
+    font-size: 28px;
+    margin-left: -55px;
+}
+
+.wrapper .slider p {
+    position: absolute;
+    color: white;
+    top: 68%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 28px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+
+.wrapper .slider span {
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.wrapper .slider a {
+    position: absolute;
+    margin-left: -60px;
+    padding: 10px;
+    top: 75%;
+    left: 50%;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+}
+
+.wrapper .slider a:hover {
+    background: rgba(0, 0, 0, .2);
+}
+
+.wrapper .slider:nth-child(3) p {
+    top: 40%;
+    left: -48%;
+}
+
+.wrapper .slider:nth-child(3) a {
+    top: 47%;
+    left: 25%;
+}
+
+.wrapper .slider:nth-child(4) p {
+    color: lightslategrey;
+}
+
+.wrapper .slider:nth-child(4) a {
+    color: lightslategrey;
+    border: 1px solid lightslategrey;
+    border-radius: 8%;
+}
+
+/*arrow*/
+.arrow {
+    position: absolute;
+    bottom: 20px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 556px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.arrow .tip1 {
+    width: 495px;
+}
+
+.arrow .tip1 li {
+    display: inline-block;
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    background: url('../images/but01.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.arrow .tip1 li.cur {
+    background: url('../images/but02.png');
+    background-size: cover;
+}
+
+.arrow .tip2 {
+    margin: 16px 24% 0;
+    width: 260px;
+    height: 3px;
+    border: 1px solid transparent;
+    background: rgba(222, 222, 222, .2);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.arrow .tip2 li {
+    float: left;
+    width: 62px;
+    height: 2px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+.arrow .tip2 li.cur {
+    background: white;
+}

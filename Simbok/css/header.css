@@ -1,0 +1,130 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.headerWrapper {
+    position: absolute;
+    width: 100%;
+   min-width:1204px;
+    height: 100px;
+    z-index: 999;
+}
+
+/*header*/
+.headerWrapper .header {
+    height: 100px;
+}
+
+.header .icon_logo {
+    float: left;
+    margin: 25px  50px 0;
+    width: 183px;
+    height: 66px;
+    line-height: 66px;
+    background: url("../images/logo.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*nav*/
+.header .nav {
+    float: right;
+    margin: 30px 65px 0 0;
+    right: 50px;
+    width: 300px;
+    height: 66px;
+}
+
+.header a {
+    color: white;
+    font-weight: 100;
+}
+
+.header a.icon:hover {
+    color: #ffa000;
+}
+
+.header .icon {
+    width: 120px;
+    height: 68px;
+    padding: 10px;
+    line-height: 66px;
+    font-size: 18px;
+}
+
+.header span {
+    display: inline-block;
+    margin-right: 10px;
+    width: 29px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.header .nav .icon_center {
+    background: url("../images/arrow_1.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header .nav a:active .icon_center {
+    background: url("../images/arrow_1ac.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header .nav_right {
+    float: right;
+    margin: 30px -307px 0 0;
+    width: 100px;
+    height: 66px;
+}
+
+.header .nav_right .icon_more {
+    background: url("../images/arrow_2.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header .nav_right .icon:hover {
+    background: rgba(222, 222, 222, .3);
+}
+
+.header .nav_right:hover .subnav {
+    display: block;
+}
+
+.header .subnav:hover {
+    display: block;
+}
+
+.header .nav_right .subnav {
+    display: none;
+    width: 100px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.header .subnav li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.header .subnav li:hover {
+    display: inline-block;
+    background: rgba(222, 222, 222, .3);
+}
+
+.header .subnav em {
+    display: none;
+    margin-right: 5px;
+    width: 8px;
+    height: 8px;
+    background: #00e4ff;
+}
+
+.header .subnav li:hover em {
+    display: inline-block;
+}
